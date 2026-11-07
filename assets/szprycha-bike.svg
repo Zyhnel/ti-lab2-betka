@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="540" viewBox="0 0 720 540" fill="none">
+  <title>Ilustracja zielonego roweru szosowego z pomarańczowymi detalami</title>
+  <rect width="720" height="540" fill="#E9E2D1"/>
+  <path d="M0 424C111 399 216 444 327 421c111-23 241-32 393-5v124H0V424Z" fill="#D8D5C4"/>
+  <circle cx="559" cy="104" r="51" fill="#D85A36"/>
+  <circle cx="559" cy="104" r="68" stroke="#285A43" stroke-width="2" stroke-dasharray="3 9"/>
+  <path d="M71 116h119M92 133h71M581 210h71M568 228h44" stroke="#858B79" stroke-width="3" stroke-linecap="round"/>
+  <path d="M105 405H636" stroke="#20241F" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Hand-drawn wheels and spokes -->
+  <circle cx="186" cy="342" r="121" stroke="#20241F" stroke-width="13"/>
+  <circle cx="186" cy="342" r="106" stroke="#285A43" stroke-width="2"/>
+  <circle cx="531" cy="342" r="121" stroke="#20241F" stroke-width="13"/>
+  <circle cx="531" cy="342" r="106" stroke="#285A43" stroke-width="2"/>
+  <g stroke="#858B79" stroke-width="2">
+    <path d="m186 342-86-62m86 62-23-103m23 103 59-87m-59 87 104 2m-104-2-58 89m58-89-14 105m14-105-98 36m98-36 95 47"/>
+    <path d="m531 342-76-72m76 72-19-105m19 105 68-81m-68 81 103-12m-103 12-49 92m49-92 20 103m-20-103-100 36m100-36 95 46"/>
+  </g>
+  <circle cx="186" cy="342" r="8" fill="#D85A36"/>
+  <circle cx="531" cy="342" r="8" fill="#D85A36"/>
+
+  <!-- Frame, fork, drivetrain and handlebars -->
+  <g stroke="#285A43" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="186,342 302,199 346,342 186,342 302,199 414,214 346,342" stroke-width="12"/>
+    <path d="m416 214 115 128m-122-139 20-17 39 2m-4 13 42-3 20 14" stroke-width="10"/>
+    <path d="m281 189 47-7 23 5m-61 3-15-11m-34 162 15 12" stroke-width="11"/>
+    <path d="m345 342 3 34m-19 0h39m-20-1 35 22m-38-22-30 22" stroke-width="8"/>
+  </g>
+  <circle cx="346" cy="342" r="29" stroke="#D85A36" stroke-width="7"/>
+  <circle cx="346" cy="342" r="5" fill="#D85A36"/>
+  <path d="M187 342h159m-44-143 44 143m70-128-70 128" stroke="#D85A36" stroke-width="2" stroke-dasharray="5 8"/>
+
+  <!-- Small maker's marks -->
+  <path d="M78 468h72m420 0h73" stroke="#285A43" stroke-width="3" stroke-linecap="round"/>
+  <path d="m96 458 10 10-10 10m527-20-10 10 10 10" stroke="#285A43" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
