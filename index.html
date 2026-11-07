@@ -94,7 +94,7 @@
         </header>
 
         <div class="price-sheet">
-          <table class="price-table">
+          <table class="price-table" aria-describedby="pricing-footnote">
             <caption>Cennik orientacyjny · robocizna</caption>
             <thead>
               <tr>
@@ -104,28 +104,28 @@
             </thead>
             <tbody>
               <tr>
-                <td>Przegląd miejski</td>
+                <th scope="row">Przegląd miejski</th>
                 <td class="num">120 zł</td>
               </tr>
               <tr>
-                <td>Regulacja przerzutek</td>
+                <th scope="row">Regulacja przerzutek</th>
                 <td class="num">80 zł</td>
               </tr>
               <tr>
-                <td>Serwis hamulców</td>
+                <th scope="row">Serwis hamulców</th>
                 <td class="num">70 zł</td>
               </tr>
               <tr>
-                <td>Centrowanie koła</td>
+                <th scope="row">Centrowanie koła</th>
                 <td class="num">od 60 zł</td>
               </tr>
               <tr>
-                <td>Wymiana dętki</td>
+                <th scope="row">Wymiana dętki</th>
                 <td class="num">35 zł</td>
               </tr>
             </tbody>
           </table>
-          <p class="price-sheet__footnote">Cena obejmuje montaż; koszt dętki ustalamy przed pracą.</p>
+          <p class="price-sheet__footnote" id="pricing-footnote">Cena obejmuje montaż; koszt dętki ustalamy przed pracą.</p>
         </div>
       </section>
     </main>

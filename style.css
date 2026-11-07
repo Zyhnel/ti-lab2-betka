@@ -274,13 +274,22 @@ h2 {
   text-align: left;
 }
 
-.price-table th {
+.price-table thead th {
   background: var(--ink);
   color: var(--paper);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.04em;
+}
+
+.price-table tbody th[scope="row"] {
+  background: transparent;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: normal;
 }
 
 .price-table tbody tr:nth-child(even) {
@@ -292,7 +301,7 @@ h2 {
   white-space: nowrap;
 }
 
-.price-table th.num {
+.price-table thead th.num {
   color: var(--orange-light);
 }
 

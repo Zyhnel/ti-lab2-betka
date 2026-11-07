@@ -1,6 +1,13 @@
 <?php
 $firma = 'Szprycha';
 $rok = date('Y');
+$cennik = [
+    ['usluga' => 'Przegląd miejski', 'cena' => '120 zł'],
+    ['usluga' => 'Regulacja przerzutek', 'cena' => '80 zł'],
+    ['usluga' => 'Serwis hamulców', 'cena' => '70 zł'],
+    ['usluga' => 'Centrowanie koła', 'cena' => 'od 60 zł'],
+    ['usluga' => 'Wymiana dętki', 'cena' => '35 zł'],
+];
 ?>
 <!doctype html>
 <html lang="pl">
@@ -98,7 +105,7 @@ $rok = date('Y');
         </header>
 
         <div class="price-sheet">
-          <table class="price-table">
+          <table class="price-table" aria-describedby="pricing-footnote">
             <caption>Cennik orientacyjny · robocizna</caption>
             <thead>
               <tr>
@@ -107,29 +114,15 @@ $rok = date('Y');
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>Przegląd miejski</td>
-                <td class="num">120 zł</td>
-              </tr>
-              <tr>
-                <td>Regulacja przerzutek</td>
-                <td class="num">80 zł</td>
-              </tr>
-              <tr>
-                <td>Serwis hamulców</td>
-                <td class="num">70 zł</td>
-              </tr>
-              <tr>
-                <td>Centrowanie koła</td>
-                <td class="num">od 60 zł</td>
-              </tr>
-              <tr>
-                <td>Wymiana dętki</td>
-                <td class="num">35 zł</td>
-              </tr>
+              <?php foreach ($cennik as $pozycja): ?>
+                <tr>
+                  <th scope="row"><?= htmlspecialchars($pozycja['usluga'], ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></th>
+                  <td class="num"><?= htmlspecialchars($pozycja['cena'], ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></td>
+                </tr>
+              <?php endforeach; ?>
             </tbody>
           </table>
-          <p class="price-sheet__footnote">Cena obejmuje montaż; koszt dętki ustalamy przed pracą.</p>
+          <p class="price-sheet__footnote" id="pricing-footnote">Cena obejmuje montaż; koszt dętki ustalamy przed pracą.</p>
         </div>
       </section>
     </main>
