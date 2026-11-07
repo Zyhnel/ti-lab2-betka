@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 32" fill="none">
+  <title>Logo Szprycha — rower</title>
+  <circle cx="9" cy="23" r="7" stroke="#ad4528" stroke-width="2" />
+  <circle cx="39" cy="23" r="7" stroke="#ad4528" stroke-width="2" />
+  <polyline points="9,23 18,8 24,23 9,23 20,10 32,10 24,23 39,23 32,10 35,6" stroke="#ad4528" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
